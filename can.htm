@@ -1,0 +1,46 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <script>
+            var canvas;
+            var context;
+            var ga = 0.0;
+            var timerId = 0;
+
+            function init() {
+                canvas = document.getElementById("myCanvas");
+                context = canvas.getContext("2d");
+                timerId = setInterval("fadeIn()", 50);
+            }
+
+            function fadeIn() {
+                context.clearRect(0,0, canvas.width,canvas.height);
+                context.globalAlpha = ga;
+                var ie = new Image();
+				
+                ie.onload = function()
+                {
+                    context.drawImage(ie, 0, 0, 940, 360);
+                };
+                ie.src = "img/slide1.jpg";
+
+                ga = ga + 0.1;
+                if (ga > 1.0)
+                {
+                    goingUp = false;
+                    clearInterval(timerId);
+					ie.src = "img/slide2.jpg";
+					ga = 0
+					
+                }
+            }
+			
+			function fadeOut() {
+				ga = ga - 0.1;
+			}
+        </script>
+    </head>
+    <body onload="init()">
+        <canvas width="940" height="360" id="myCanvas"></canvas>
+    </body>
+</html>

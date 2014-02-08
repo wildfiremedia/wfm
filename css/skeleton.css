@@ -1,0 +1,230 @@
+.b{border:1px solid #000}
+/* Table of Contents
+==================================================
+    #Base 960 Grid
+    #Tablet (Portrait)
+    #Mobile (Portrait)
+    #Mobile (Landscape)
+    #Clearing */
+
+/* #Base 960 Grid
+================================================== */
+
+    .container                                  { position: relative; width: 960px; margin: 0 auto; padding: 0; }
+    .container .column,
+    .container .col                         { float: left; display: inline; margin-left: 10px; margin-right: 10px; }
+    .row                                        { margin-bottom: 20px; }
+
+    /* Nested Column Classes */
+    .column.alpha, .col.alpha               { margin-left: 0; }
+    .column.omega, .col.omega               { margin-right: 0; }
+
+    /* Base Grid */
+    .container .one.column,
+    .container .one.col                     { width: 40px;  }
+    .container .two.col                     { width: 100px; }
+    .container .three.col                   { width: 160px; }
+    .container .four.col                    { width: 220px; }
+    .container .five.col                    { width: 280px; }
+    .container .six.col                     { width: 340px; }
+    .container .seven.col                   { width: 400px; }
+    .container .eight.col                   { width: 460px; }
+    .container .nine.col                    { width: 520px; }
+    .container .ten.col                     { width: 580px; }
+    .container .eleven.col                  { width: 640px; }
+    .container .twelve.col                  { width: 700px; }
+    .container .thirteen.col                { width: 760px; }
+    .container .fourteen.col                { width: 820px; }
+    .container .fifteen.col                 { width: 880px; }
+    .container .sixteen.col                 { width: 940px; }
+
+    .container .one-third.column                { width: 300px; }
+    .container .two-thirds.column               { width: 620px; }
+
+    .container .offset-by-one                   { padding-left: 60px}
+    .container .offset-by-two                   { padding-left: 120px}
+    .container .offset-by-three                 { padding-left: 180px}
+    .container .offset-by-four                  { padding-left: 240px}
+    .container .offset-by-five                  { padding-left: 300px}
+    .container .offset-by-six                   { padding-left: 360px}
+    .container .offset-by-seven                 { padding-left: 420px}
+    .container .offset-by-eight                 { padding-left: 480px}
+    .container .offset-by-nine                  { padding-left: 540px}
+    .container .offset-by-ten                   { padding-left: 600px}
+    .container .offset-by-eleven                { padding-left: 660px}
+    .container .offset-by-twelve                { padding-left: 720px}
+    .container .offset-by-thirteen              { padding-left: 780px}
+    .container .offset-by-fourteen              { padding-left: 840px}
+    .container .offset-by-fifteen               { padding-left: 900px}
+
+
+
+/* #Tablet (Portrait)
+================================================== */
+
+    /* Note: Design for a width of 768px */
+
+    @media only screen and (min-width: 768px) and (max-width: 959px) {
+		.container                                  { width: 768px; }
+		.container .column,
+		.container .col                         { margin-left: 10px; margin-right: 10px;  }
+		.column.alpha, .col.alpha               { margin-left: 0; margin-right: 10px; }
+		.column.omega, .col.omega               { margin-right: 0; margin-left: 10px; }
+		.alpha.omega                                { margin-left: 0; margin-right: 0; }
+
+		.container .one.column,
+		.container .one.col                     { width: 28px; }
+		.container .two.col                     { width: 76px; }
+		.container .three.col                   { width: 124px; }
+		.container .four.col                    { width: 172px; }
+		.container .five.col                    { width: 220px; }
+		.container .six.col                     { width: 268px; }
+		.container .seven.col                   { width: 316px; }
+		.container .eight.col                   { width: 364px; }
+		.container .nine.col                    { width: 412px; }
+		.container .ten.col                     { width: 460px; }
+		.container .eleven.col                  { width: 508px; }
+		.container .twelve.col                  { width: 556px; }
+		.container .thirteen.col                { width: 604px; }
+		.container .fourteen.col                { width: 652px; }
+		.container .fifteen.col                 { width: 700px; }
+		.container .sixteen.col                 { width: 748px; }
+
+		.container .one-third.column                { width: 236px; }
+		.container .two-thirds.column               { width: 492px; }
+
+        /* Offsets */
+		.container .offset1 { padding-left: 48px}
+		.container .offset2 { padding-left: 96px}
+		.container .offset3 { padding-left: 144px}
+		.container .offset4 { padding-left: 192px}
+		.container .offset5 { padding-left: 240px}
+		.container .offset6 { padding-left: 288px}
+		.container .offset7 { padding-left: 336px}
+		.container .offset8 { padding-left: 384px}
+		.container .offset9 { padding-left: 432px}
+		.container .offset10 { padding-left: 480px}
+		.container .offset11 { padding-left: 528px}
+		.container .offset12 { padding-left: 576px}
+		.container .offset13 { padding-left: 624px}
+		.container .offset14 { padding-left: 672px}
+		.container .offset15 { padding-left: 720px}
+    }
+
+
+/*  #Mobile (Portrait)
+================================================== */
+
+    /* Note: Design for a width of 320px */
+
+    @media only screen and (max-width: 767px) {
+		.container { width: 300px; }
+		.container .col,
+		.container .column { margin: 0; }
+
+		.container .one.column,
+		.container .one.col,
+		.container .two.col,
+		.container .three.col,
+		.container .four.col,
+		.container .five.col,
+		.container .six.col,
+		.container .seven.col,
+		.container .eight.col,
+		.container .nine.col,
+		.container .ten.col,
+		.container .eleven.col,
+		.container .twelve.col,
+		.container .thirteen.col,
+		.container .fourteen.col,
+		.container .fifteen.col,
+		.container .sixteen.col,
+		.container .one-third.column,
+		.container .two-thirds.column  { width: 300px; }
+
+        /* Offsets */
+		.container .offset-by-one,
+		.container .offset-by-two,
+		.container .offset-by-three,
+		.container .offset-by-four,
+		.container .offset-by-five,
+		.container .offset-by-six,
+		.container .offset-by-seven,
+		.container .offset-by-eight,
+		.container .offset-by-nine,
+		.container .offset-by-ten,
+		.container .offset-by-eleven,
+		.container .offset-by-twelve,
+		.container .offset-by-thirteen,
+		.container .offset-by-fourteen,
+		.container .offset-by-fifteen { padding-left: 0; }
+
+    }
+
+
+/* #Mobile (Landscape)
+================================================== */
+
+    /* Note: Design for a width of 480px */
+
+    @media only screen and (min-width: 480px) and (max-width: 767px) {
+		.container { width: 420px; }
+		.container .col,
+		.container .column { margin: 0; }
+
+		.container .one.column,
+		.container .one.col,
+		.container .two.col,
+		.container .three.col,
+		.container .four.col,
+		.container .five.col,
+		.container .six.col,
+		.container .seven.col,
+		.container .eight.col,
+		.container .nine.col,
+		.container .ten.col,
+		.container .eleven.col,
+		.container .twelve.col,
+		.container .thirteen.col,
+		.container .fourteen.col,
+		.container .fifteen.col,
+		.container .sixteen.col,
+		.container .one-third.column,
+		.container .two-thirds.column { width: 420px; }
+    }
+
+
+/* #Clearing
+================================================== */
+
+    /* Self Clearing Goodness */
+    .container:after { content: "\0020"; display: block; height: 0; clear: both; visibility: hidden; }
+
+    /* Use clearfix class on parent to clear nested col,
+    or wrap each row of col in a <div class="row"> */
+    .clearfix:before,
+    .clearfix:after,
+    .row:before,
+    .row:after {
+      content: '\0020';
+      display: block;
+      overflow: hidden;
+      visibility: hidden;
+      width: 0;
+      height: 0; }
+    .row:after,
+    .clearfix:after {
+      clear: both; }
+    .row,
+    .clearfix {
+      zoom: 1; }
+
+    /* You can also use a <br class="clear" /> to clear col */
+    .clear {
+      clear: both;
+      display: block;
+      overflow: hidden;
+      visibility: hidden;
+      width: 0;
+      height: 0;
+    }

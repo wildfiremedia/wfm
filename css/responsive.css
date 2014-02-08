@@ -1,0 +1,82 @@
+
+
+/*  #Mobile (Portrait)
+================================================== */
+
+    /* Note: Design for a width of 320px */
+
+    @media only screen and (max-width: 767px) {
+		.container { width: 300px; }
+		.container .col,
+		.container .column { margin: 0; }
+
+		.container .one.column,
+		.container .one.col,
+		.container .two.col,
+		.container .three.col,
+		.container .four.col,
+		.container .five.col,
+		.container .six.col,
+		.container .seven.col,
+		.container .eight.col,
+		.container .nine.col,
+		.container .ten.col,
+		.container .eleven.col,
+		.container .twelve.col,
+		.container .thirteen.col,
+		.container .fourteen.col,
+		.container .fifteen.col,
+		.container .sixteen.col,
+		.container .one-third.column,
+		.container .two-thirds.column  { width: 300px; }
+
+        /* Offsets */
+		.container .offset-by-one,
+		.container .offset-by-two,
+		.container .offset-by-three,
+		.container .offset-by-four,
+		.container .offset-by-five,
+		.container .offset-by-six,
+		.container .offset-by-seven,
+		.container .offset-by-eight,
+		.container .offset-by-nine,
+		.container .offset-by-ten,
+		.container .offset-by-eleven,
+		.container .offset-by-twelve,
+		.container .offset-by-thirteen,
+		.container .offset-by-fourteen,
+		.container .offset-by-fifteen { padding-left: 0; }
+
+    }
+
+
+/* #Mobile (Landscape)
+================================================== */
+
+    /* Note: Design for a width of 480px */
+
+    @media only screen and (min-width: 480px) and (max-width: 767px) {
+		.container { width: 420px; }
+		.container .col,
+		.container .column { margin: 0; }
+
+		.container .one.column,
+		.container .one.col,
+		.container .two.col,
+		.container .three.col,
+		.container .four.col,
+		.container .five.col,
+		.container .six.col,
+		.container .seven.col,
+		.container .eight.col,
+		.container .nine.col,
+		.container .ten.col,
+		.container .eleven.col,
+		.container .twelve.col,
+		.container .thirteen.col,
+		.container .fourteen.col,
+		.container .fifteen.col,
+		.container .sixteen.col,
+		.container .one-third.column,
+		.container .two-thirds.column { width: 420px; }
+    }

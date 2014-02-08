@@ -1,0 +1,1 @@
+$("#fader img:not(:first)").hide();$("#fader img").each(function(){var a=$(this);$("<img>").attr("src",$(this).attr("src")).load(function(){a.css("margin-left","")})});function fadeNext(){$("#fader img").first().fadeOut().appendTo($("#fader"));$("#fader img").first().fadeIn()}function doRotate(){fadeNext()}var rotate=setInterval(doRotate,7E3);
