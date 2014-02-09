@@ -4,6 +4,7 @@
 html {padding-top:15px;}
 p, li {font-family: "Open Sans";}
 b {font-weight: bold;}
+.wh {color:#fff;}
 .container p {line-height: 1.85em;}
 .sixteen.cols h3 {margin-top: 10px;}
 a:link {text-decoration:none; color: #333;}
