@@ -9,7 +9,8 @@ b {font-weight: bold;}
 .sixteen.cols h3 {margin-top: 10px;}
 a:link {text-decoration:none; color: #333;}
 .h_contact{padding-bottom:5px;}
-.rightside{position:absolute;float:right;}
+.leftside{float:left;padding-bottom: 10px;}
+.rightside{float:right;padding-bottom: 10px;}
 .label-info {background: orange;}
 .sidebar {padding-top: 20px}
 .sidebar a {color: #88d;display: block;line-height: 1.8em;}
