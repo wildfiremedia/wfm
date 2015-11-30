@@ -22,6 +22,16 @@ a:link {text-decoration:none; color: #333;}
 .orange-button-large, .orange-button-large a:hover {border-radius: 10px;-moz-border-radius: 10px;-webkit-border-radius: 10px;}
 .orange-button-large {margin-top: 46px;background: orange;text-align: center;}
 .orange-button-large a {display: block;font-family: "Source Sans Pro";font-size: 21px;color: #fff;text-shadow: 1px 1px 1px #333;padding: 15px 10px;}
+.checkbtn{
+background: red;
+padding: 5px;
+color: white;
+border-radius: 4px;
+text-decoration: none;
+font-size: 18px;
+display: inline-block;
+margin: 20px;
+}
 
 footer {background: orange;width: 1060px;height: 10%;color: #fff;font-size: 11pt;padding: 20px 0;border-top: 2px solid #ca6f3c}
 .menushadow, #appendFooter {min-width: 980px;width: 100%;}
