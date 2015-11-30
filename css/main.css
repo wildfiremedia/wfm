@@ -23,14 +23,14 @@ a:link {text-decoration:none; color: #333;}
 .orange-button-large {margin-top: 46px;background: orange;text-align: center;}
 .orange-button-large a {display: block;font-family: "Source Sans Pro";font-size: 21px;color: #fff;text-shadow: 1px 1px 1px #333;padding: 15px 10px;}
 .checkbtn{
-background: red;
-padding: 5px;
+background: #FF7600;
+padding: 12px;
 color: white;
+font-weight: normal;
 border-radius: 4px;
-text-decoration: none;
 font-size: 18px;
 display: inline-block;
-margin: 20px;
+margin-bottom: 20px;
 }
 
 footer {background: orange;width: 1060px;height: 10%;color: #fff;font-size: 11pt;padding: 20px 0;border-top: 2px solid #ca6f3c}
