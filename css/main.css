@@ -18,6 +18,8 @@ a:link {text-decoration:none; color: #333;}
 .sidebar2 {color: #fff;width: 250px;}
 .sidebar2 span {display: block;width: auto;line-height: 1.8em;}
 .sidebar2 .label-info {background: #333;margin-bottom: 8px;line-height: 1.5em;}
+.bred {font-weight:bold;text-decoration: underline;font-style: italic;color:red}
+.bblack {font-weight:bold;text-decoration: underline;font-style: italic;}
 
 .orange-button-large, .orange-button-large a:hover {border-radius: 10px;-moz-border-radius: 10px;-webkit-border-radius: 10px;}
 .orange-button-large {margin-top: 46px;background: orange;text-align: center;}
